@@ -24,15 +24,11 @@ function n(nValue){
 }
 
 console.log("******************PARTE 4**************************");
-function n2(nValue2){
-let i = 0;
-let j = 1;
-function sum (i,j){
-    while(j <= nValue2){
-        i = j + i;
-        j++;
-    }
-    return i;
-} 
-console.log(sum(i,j));
+function n2(nValue2) {
+let a = 0;
+let b = 1;
+while (b <= nValue2) {
+    a = a + b;
+    b++;
+} return (a);
 }
